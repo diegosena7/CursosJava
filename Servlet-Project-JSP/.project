@@ -3,6 +3,7 @@
 	<name>Servlet-Project-JSP</name>
 	<comment></comment>
 	<projects>
+		<project>JavaWeb_JSP</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

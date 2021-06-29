@@ -3,7 +3,6 @@ public class VetorUmaDimensao {
 
 	public static void main(String[] args) {
 
-		Double faturamentoDia = 1000.0;
 		Double [] faturamentoMensalJaneiro = new Double [] {1500.0, 2200.0, 3750.0};
 		Double [] faturamentoMensalfevereiro = new Double [] {1900.0, 2500.0, 3950.0};
 		Double [][] faturamentoAnual = new Double [] [] {faturamentoMensalJaneiro, faturamentoMensalfevereiro};

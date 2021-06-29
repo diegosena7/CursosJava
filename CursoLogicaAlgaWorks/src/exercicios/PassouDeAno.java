@@ -20,5 +20,6 @@ public class PassouDeAno {
 		}else {
 			System.out.println("Infelizmente você não passou de ano e sua nota final foi de: " + notaFinal);
 		}
+		sc.close();
 	}
 }

@@ -15,5 +15,6 @@ public class IdadeMinimaCNH {
 		}else {
 			System.out.println("Você possui: " + idade + " aonos e você não pode tirar sua CNH ainda, aguarde mais um pouco.");
 		}
+		sc.close();
 	}
 }

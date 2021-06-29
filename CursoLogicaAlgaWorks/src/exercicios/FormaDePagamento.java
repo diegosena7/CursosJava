@@ -19,5 +19,6 @@ public class FormaDePagamento {
 			produto = produto + produto * juros / 100;
 		}
 		System.out.println("O valor do produto é: " + produto);
+		sc.close();
 	}
 }

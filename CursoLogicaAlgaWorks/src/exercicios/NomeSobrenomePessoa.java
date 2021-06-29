@@ -14,5 +14,7 @@ public class NomeSobrenomePessoa {
 		String sobrenome = sc.nextLine();
 		
 		System.out.println("O nome e sobrenome digitado é: " + nome + " " + sobrenome);
+		
+		sc.close();
 	}
 }

@@ -33,5 +33,6 @@ public class Calculadora {
 			int divisao = num1 / num2;
 			System.out.println("A divisão de " + num1 + " / " + num2 + " é = " + divisao);
 		}
+		sc.close();
 	}
 }

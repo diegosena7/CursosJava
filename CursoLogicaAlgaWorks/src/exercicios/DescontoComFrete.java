@@ -21,5 +21,6 @@ public class DescontoComFrete {
 			valorCompra = valorCompra - frete;
 		}
 		System.out.println("O valor da compra é: " + valorCompra);
+		sc.close();
 	}
 }
