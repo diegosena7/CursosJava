@@ -3,7 +3,7 @@ package exercicios;
 import java.util.Scanner;
 
 /*
- * Nesta classe estamos calculando o produto de todos os númeors inteiros positivos
+ * Nesta classe estamos calculando o produto de todos os números inteiros positivos
  * que sejam menor que N, sendo N fornecido pelo usuário.
  * Fat foi inicializada em 1, pois não altera o valor do produto e a mesma é incrementada
  * com o valor dela mesma vezes o valor de i.
