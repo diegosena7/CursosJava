@@ -14,18 +14,17 @@ public class Streams {
 
 		List<Integer> list = Arrays.asList(3, 4, 5, 10, 7);
 
-		Stream<Integer> stream = list.stream().map(elemento -> elemento * 10);
+		Stream<Integer> stream = list.stream().map(elemento -> elemento * 2);
 		System.out.println("Inteiros: " + Arrays.toString(stream.toArray()));
 
 		Stream<String> stream1 = Stream.of("Diego", "Nayara", "Ryan", "Ted");
 		System.out.println("Strings: " + Arrays.toString(stream1.toArray()));
 
-		Stream<Integer> stream2 = Stream.iterate(0, s -> s + 2);
-		System.out.println("Integers :" + Arrays.toString(stream2.limit(10).toArray()));
+		Stream<Integer> stream2 = Stream.iterate(3, s -> s + 3);
+		System.out.println("Integers :" + Arrays.toString(stream2.limit(20).toArray()));
 
 		// Fibonacci: dado um valor retorna a soma dos 2 anteriores...
-		Stream<Long> stream3 = Stream.iterate(new Long[] { 0L, 1L }, p -> new Long[] { p[1], p[0] + p[1] })
-				.map(p -> p[0]);
+		Stream<Long> stream3 = Stream.iterate(new Long[] { 0L, 1L }, p -> new Long[] { p[1], p[0] + p[1] }).map(p -> p[0]);
 		System.out.println("Fibonacci = " + Arrays.toString(stream3.limit(20).toArray()));
 
 		int soma = list.stream().reduce(0, (x, y) -> x + y);
